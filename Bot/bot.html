@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1 viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100vw;
+            max-width: 100vh; /* Adjust the max-width as needed */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .webchatIframe {
+            width: 100vw;
+            height: 100vh; /* Adjust the height as needed */
+            border: none;
+        }
+    </style>
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <div class="container">
+        <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+        <script>
+            window.onload = function () {
+    window.botpressWebChat.init({
+        "composerPlaceholder": "",
+        "botConversationDescription": "",
+        "botId": "6b9dfe66-2383-46db-813d-6c968d21cc8f",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "6b9dfe66-2383-46db-813d-6c968d21cc8f",
+        "webhookId": "dfd5f858-e371-4973-8ffa-4180486533b4",
+        "lazySocket": true,
+        "themeName": "prism",
+        "frontendVersion": "v1",
+        "showPoweredBy": true,
+        "theme": "prism",
+        "themeColor": "#2563eb",
+        "hideWidget": true,
+        "disableAnimations": true,
+        "closeOnEscape": false,
+        "showConversationsButton": false,
+        "enableTranscriptDownload": false,
+        "className": "webchatIframe",
+        "containerWidth": "100%25",
+        "layoutWidth": "100%25",
+        "showCloseButton": false
+    });
+
+    window.onbeforeunload = function () {
+        localStorage.clear(); // Clear any local storage data
+        return 'Are you sure you want to refresh?';
+    };
+
+    window.botpressWebChat.onEvent(function () {
+        window.botpressWebChat.sendEvent({ type: 'show' });
+    }, ['LIFECYCLE.LOADED']);
+};
+        </script>
+    </div>
+</body>
+
+</html>

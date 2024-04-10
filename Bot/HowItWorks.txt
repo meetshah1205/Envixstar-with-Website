@@ -1,0 +1,13 @@
+This is a bot made using Botpress.
+
+How it works is, quite simple.
+
+Here it is:-
+ (i). The user asks a question.
+ (ii). The bot responds asking for a choice of a public personality.
+ (iii). User chooses a public personality.
+ (iv). The user says something and the bot responds in the style of that public figure.
+ (v). Rinse and Repeat.
+
+ How (iv) works:-
+    The bot can ofcourse not respond anything by itself, so it asks ChatGPT to answer the question in the style of that celebrity.
