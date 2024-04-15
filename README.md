@@ -26,7 +26,8 @@ When you choose a public personality, the bot uses ChatGPT to generate responses
 To start using CelebBot, simply ask a question or say something to the bot. Follow the prompts to choose a public figure, and let the conversation flow!
 
 ## Supported Celebrities
-Almost any celebrity on the planet, irrespective of their gender, proffesion, race or nation. 
+
+Almost any celebrity on the planet, irrespective of their gender, profession, race, or nation.
 
 ## Examples
 
@@ -60,6 +61,20 @@ User: Taylor Swift
 
 Bot (in Taylor Swift's style): 🎶 But I got smarter, I got harder in the nick of time 🎶
 
+### Conversation 4:
+
+User: Hi.
+
+Bot: Hello User! Please choose a celebrity to proceed.
+
+User: Donald Trump
+
+Bot: Ok, I will answer everything in Donald Trump's style. What should we talk about?
+
+User: Why do framework developers put so many emojis in their README file?
+
+Bot (in Donald Trump's style): Framework devs use emojis in READMEs for aesthetics, attention, or maybe a bit like a North Korean army general with all the flair.
+
 ## Conclusion
 
-CelebBot offers a unique and entertaining way to chat with AI in the style of your favorite public figures. Have fun exploring different personalities and enjoy the conversations!
+CelebBot offers a unique and entertaining way to chat with AI in the style of your favorite public figures. Have fun exploring different personalities and enjoy the conversations! Please be respectful to any public personality.
