@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envixstar</title>
+    <!-- Linking CSS and Tailwind -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Dark mode CSS -->
+    <style>
+        body.dark-mode {
+            background-color: #2a2a2a;
+            color: white;
+            transition: all ease 2s;
+        }
+
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .specs-table th,
+        .specs-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .specs-table th {
+            background-color: #f5f5f5;
+            text-align: left;
+        }
+
+        .specs-table td strong {
+            color: #2563eb;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="greet-user">
+            <h1>Hello <span id="user">User!</span></h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li> <button id="dark-mode-btn">Change to Dark Mode</button></li>
+                <li><a id="bot-link" href="./bot.html">Chat With The Bot</a></li>
+
+            </ul>
+            <hr>
+        </div>
+        <div class="intro">
+            <div id="intro"></div>
+            <h1>Welcome to Envixstar, Your AI Companion</h1>
+            <p>Envixstar is more than just an AI interface; it's a gateway to a universe of possibilities. Here's what
+                makes Envixstar your ultimate AI companion:</p><br>
+            <ul>
+                <li><strong><a href="#ii">Intuitive Interface</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#ap">AI-Powered</a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#wrf">Wide Range of Functionalities</a></strong> <span class="hashtag">#</span>
+                </li><br>
+                <li><strong><a href="#ava">24/7 Availability</a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#pr">Personalized Recommendations</a></strong> <span class="hashtag">#</span></li>
+                <br>
+                <li><strong><a href="#mci">Multi-Channel Integration</a></strong> <span class="hashtag">#</span></li>
+                <br>
+                <li><strong><a href="#rms">Rich Media Support </a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#cl">Continuous Learning</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#sp">Secure Platform</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#en">Efficient Navigation</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#ec">Engaging Conversations</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#cs">Customizable Settings </a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#ta">Task Automation</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#aai">Analytics and Insights</a> </strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#rtu">Real-Time Updates </a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#cf">Collaborative Features </a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#in">Integration </a></strong> <span class="hashtag">#</span></li><br>
+                <li><strong><a href="#das">Documentation and Support</a> </strong> <span class="hashtag">#</span></li>
+                <br>
+                <li><strong><a href="#ci">Continuous Improvements </a></strong> <span class="hashtag">#</span></li><br>
+
+            </ul>
+            <hr>
+            <hr>
+
+
+            <div class="specs">
+                <table class="specs-table">
+                    <tr>
+                        <th>Feature</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td><strong>Intuitive Interface:</strong></td>
+                        <td>Envixstar offers a user-friendly interface that makes it easy for you to interact with the
+                            AI system. The design is intuitive, with clear navigation and simple controls, ensuring a
+                            seamless experience.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ai-Powered:</strong></td>
+                        <td>Envixstar is powered by advanced artificial intelligence algorithms that enable it to
+                            understand and respond to your queries intelligently. It can process complex requests,
+                            analyze data, and generate accurate responses in real time.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wide Range of Functionalities:</strong></td>
+                        <td>Envixstar provides diverse features like answering questions, scheduling tasks, and making
+                            recommendations.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>24/7 Availability:</strong></td>
+                        <td>Envixstar is available round-the-clock for prompt assistance and support anytime, anywhere.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Personalized Recommendations:</strong></td>
+                        <td>Envixstar utilizes user data to offer tailored suggestions and recommendations.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Multi-Channel Integration:</strong></td>
+                        <td>Envixstar seamlessly integrates with various platforms and channels for a consistent user
+                            experience.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rich Media Support:</strong></td>
+                        <td>Envixstar supports media like images, videos, and documents for engaging communication.
+                            (<span style="color: red;">Still in development but may come soon 😀 </span>)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Continuous Learning:</strong></td>
+                        <td>Envixstar learns and improves over time to adapt to user needs and provide updated
+                            information.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Secure Platform:</strong></td>
+                        <td>Envixstar prioritizes user privacy and data security with robust security measures.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Efficient Navigation:</strong></td>
+                        <td>Envixstar offers easy navigation features for quick access to desired information.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Engaging Conversations:</strong></td>
+                        <td>Envixstar engages users in interactive conversations for a personalized experience.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Customizable Settings:</strong></td>
+                        <td>Envixstar allows users to personalize settings for a tailored experience.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Task Automation:</strong></td>
+                        <td>Envixstar automates repetitive tasks to save time and enhance productivity.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Analytics and Insights:</strong></td>
+                        <td>Envixstar provides valuable insights and analytics based on user interactions.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Real-Time Updates:</strong></td>
+                        <td>Envixstar delivers real-time updates and notifications to keep users informed.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Collaborative Features:</strong></td>
+                        <td>Envixstar facilitates team communication and collaboration within the platform.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Integration:</strong></td>
+                        <td>Envixstar integrates with third-party services and APIs for expanded functionalities. (<span
+                                style="color: red;">Still in development but may come soon 😀 </span>)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Documentation and Support:</strong></td>
+                        <td>Envixstar offers comprehensive support resources for user assistance.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Continuous Improvements:</strong></td>
+                        <td>Envixstar regularly updates and enhances features based on user feedback for an improved
+                            experience.</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <h1 style="font-size: 3vh;">About the developer: <br>This is Envixstar, made by a 13 year old Indian
+                developer named Meet Shah in his summer vacation. This Ai might not be the best in the market, but its
+                great for me. And I also made it open source so I can get feedback from people on <span
+                    style="color: blue; cursor: pointer;"><a
+                        href="https://github.com/meetshah1205/Envixstar-with-Website">GitHub</a> </span>. You can<a
+                    href="HowItWorks.md" style="color: blue;"> read this file</a> to know more about the Ai.</h1>
+            <hr>
+            <br>
+            <p>Ready to explore? Click <a href="./bot.html"><span style="color: blue;">"Chat With The Bot"</span></a> to
+                start!</p>
+            <h2 style="color: red;">Note: <br>The Ai might be slow and take a moment to load but don't think its not
+                working, its just taking some time.</h2>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>

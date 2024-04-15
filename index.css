@@ -1,0 +1,163 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* General Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    -webkit-transition: all ease 2s;
+    -o-transition: all ease 2s;
+    transition: all ease 2s;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .greet-user {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10vh;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+    cursor: default;
+  }
+  
+  .navbar ul li button#dark-mode-btn {
+    background-color: transparent;
+  }
+  
+  .intro {
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    margin-bottom: 20px;
+  }
+  
+  .intro ul {
+    margin-bottom: 20px;
+  }
+  
+  .intro ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  #user {
+    background-image: -webkit-gradient(
+      linear,
+      left top, right top,
+      from(violet),
+      color-stop(indigo),
+      color-stop(blue),
+      color-stop(green),
+      color-stop(yellow),
+      color-stop(orange),
+      to(red)
+    );
+    background-image: -o-linear-gradient(
+      left,
+      violet,
+      indigo,
+      blue,
+      green,
+      yellow,
+      orange,
+      red
+    );
+    background-image: linear-gradient(
+      to right,
+      violet,
+      indigo,
+      blue,
+      green,
+      yellow,
+      orange,
+      red
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  
+  #bot-link,
+  #about-section {
+    color: #2563eb;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  
+  #bot-link:hover,
+  #about-section:hover {
+    text-decoration: underline;
+    color: #12388e;
+  }
+  
+  div#intro ul li span.hashtag {
+    opacity: 0;
+  }
+  
+  div#intro ul li:hover span.hashtag {
+    opacity: 1;
+    color: #2563eb;
+  }
+  
+  .highlight {
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    padding: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .navbar {
+      display: block;
+      text-align: center;
+    }
+  
+    .navbar ul {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+  
+    .navbar li {
+      margin-bottom: 10px;
+    }
+  }
+  
